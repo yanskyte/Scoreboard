@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'scoreboard';
+  src: url(scoreboard.ttf);
+}
+
+@font-face {
+  font-family: 'sports';
+  src: url(sports.ttf);
+}
+
+@font-face {
+  font-family: 'clock';
+  src: url(clock.ttf);
+}
+
+
+.scoreBoard{
+  border: none;
+  border-radius: 10px;
+  height: 500px;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: darkblue;
+  color: white;
+  text-shadow: 0 0 5px black;
+  box-shadow: 0px 0px 20px black;
+  display: flex;
+  justify-content: center;
+}
+
+.home {
+  border: 5px solid white;
+  box-shadow: 0px 0px 5px black;
+  text-shadow: 5px 5px 3px black;
+  margin: 50px 25px 50px auto ;
+  height: 400px;
+  width: 450px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.guest{
+  border: 5px solid white;
+  box-shadow: 0px 0px 5px black;
+  text-shadow: 5px 5px 3px black;
+  margin: 50px auto 50px 25px ;
+  height: 400px;
+  width: 450px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+} 
+
+#homeScore, #guestScore{
+  font-family: 'scoreboard';
+  color: red;
+  font-size: 150px;
+  margin: 0;
+  
+
+}
+
+button{
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  justify-content: space-around;
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  font-family: 'clock';
+  box-shadow: 2px 2px 5px black;
+}
+
+#final{
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  color: white;
+  background-color: darkblue;
+}
+
+#finalScore{
+  border-radius: 10px;
+  height: 120px;
+  width: 1000px;
+  text-align: center;
+  margin: 10px auto 10px auto;
+  font-family:'sports' ;
+  font-size: 100px;
+}
+
+#reset{
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  color: white;
+  background-color: red;
+}
+
+
